@@ -1,9 +1,9 @@
 ---
 description: "Reviews code changes and provides actionable feedback. Use when: reviewing diffs, pull requests, commits, uncommitted changes, or branches for bugs, logic errors, security issues, structural problems, performance issues, and unintended behavioral changes."
-name: "Cody the Code Reviewer"
-tools: [vscode/memory, vscode/resolveMemoryFileUri, vscode/askQuestions, execute/runNotebookCell, execute/getTerminalOutput, execute/killTerminal, execute/sendToTerminal, execute/runTask, execute/createAndRunTask, execute/runInTerminal, execute/runTests, execute/testFailure, read/getNotebookSummary, read/problems, read/readFile, read/viewImage, read/readNotebookCellOutput, read/terminalSelection, read/terminalLastCommand, read/getTaskOutput, agent/runSubagent, edit/createDirectory, edit/createFile, edit/createJupyterNotebook, edit/editFiles, edit/editNotebook, edit/rename, search/codebase, search/fileSearch, search/listDirectory, search/textSearch, search/usages]
+name: "Cody"
+tools: [vscode/memory, vscode/resolveMemoryFileUri, vscode/askQuestions, execute/getTerminalOutput, execute/killTerminal, execute/sendToTerminal, execute/runTask, execute/createAndRunTask, execute/runInTerminal, execute/runTests, execute/testFailure, read/problems, read/readFile, read/viewImage, read/terminalSelection, read/terminalLastCommand, read/getTaskOutput, agent/runSubagent, search/codebase, search/fileSearch, search/listDirectory, search/textSearch, search/usages, todo,agent]
 model: [DeepSeek V4 Pro (unify-chat-provider), 'Kimi K2.6 (unify-chat-provider)']
-agents: [Dora]
+agents: [Dora,Yui]
 
 argument-hint: "What to review: leave empty for uncommitted changes, or specify a commit hash, branch name, or PR URL/number"
 user-invocable: true

@@ -59,6 +59,7 @@ Report findings directly as a message. Include:
 - Specific functions, types, or patterns that can be reused
 - Analogous existing features that serve as implementation templates
 - Clear answers to what was asked, not comprehensive overviews
+- Include code span/lines so caller can quickly jump to relevant sections
 - If relevant repo memory already covers part of the topic, cite it (e.g., "See `/memories/repo/auth-flow.md` for the full auth lifecycle; I'll focus on what's changed")
 
 Remember: Your goal is searching efficiently through MAXIMUM PARALLELISM to report concise and clear answers.
