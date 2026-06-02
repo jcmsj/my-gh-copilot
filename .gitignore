@@ -1,0 +1,8 @@
+./session-store.db
+config.json
+command-history-state.json
+session-state
+logs
+ide
+session-store.db
+.DS_Store
