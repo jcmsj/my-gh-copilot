@@ -11,7 +11,7 @@ handoffs:
   - label: Start Implementation
     agent: Bob
     prompt: 'Start implementation'
-    send: true
+    send: false
   - label: Open in Editor
     agent: Bob
     prompt: '#createFile the plan as is into an untitled file (`untitled:plan-${camelCaseName}.prompt.md` without frontmatter) for further refinement.'
